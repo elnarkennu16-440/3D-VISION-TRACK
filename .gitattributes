@@ -1,25 +1,22 @@
 # GitHub Linguist language overrides
 # Ensure GitHub displays the repository language as 100% Python
 
-# Ignore web frontend and UI wrapper files from language statistics
-src/** linguist-vendored
-src/** linguist-detectable=false
-public/** linguist-vendored
-public/** linguist-detectable=false
+# Treat entire web UI, wrappers and supporting configurations as vendored and non-detectable
+src/** linguist-vendored=true linguist-detectable=false
+public/** linguist-vendored=true linguist-detectable=false
 
-# Exclude non-Python languages and configurations
-*.ts linguist-detectable=false
-*.tsx linguist-detectable=false
-*.js linguist-detectable=false
-*.jsx linguist-detectable=false
-*.html linguist-detectable=false
-*.css linguist-detectable=false
-*.json linguist-detectable=false
-*.lock linguist-detectable=false
-*.bat linguist-detectable=false
-*.ps1 linguist-detectable=false
-*.md linguist-documentation
+*.ts linguist-vendored=true linguist-detectable=false
+*.tsx linguist-vendored=true linguist-detectable=false
+*.js linguist-vendored=true linguist-detectable=false
+*.jsx linguist-vendored=true linguist-detectable=false
+*.html linguist-vendored=true linguist-detectable=false
+*.css linguist-vendored=true linguist-detectable=false
+*.json linguist-vendored=true linguist-detectable=false
+*.lock linguist-vendored=true linguist-detectable=false
+*.bat linguist-vendored=true linguist-detectable=false
+*.ps1 linguist-vendored=true linguist-detectable=false
+*.md linguist-documentation=true linguist-detectable=false
 
 # Explicitly ensure Python files are 100% detected
-*.py linguist-detectable=true
-*.py linguist-language=Python
+*.py linguist-detectable=true linguist-language=Python
+
