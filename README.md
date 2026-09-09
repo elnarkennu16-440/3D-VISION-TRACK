@@ -1,4 +1,4 @@
-# RetroLens 3D Hand Tracking Portal (`3d.py`)
+3D Hand Tracking Portal (`3d.py`)
 
 A high-performance computer vision application inspired by viral OpenCV & MediaPipe demos. It tracks both hands in real-time to span an interactive 2D quadrilateral or 3D 6-sided geometric box between your fingertips, applying 11 dynamic visual filters (Cartoon, Sketch, Thermal, Dual-Tone, Rainbow Wave, Glitch, etc.) to your body and room through the geometric portal.
 
