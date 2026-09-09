@@ -1,0 +1,24 @@
+# Python virtual environments & bytecode
+venv*/
+.venv*/
+env*/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Node & dependencies
+node_modules/
+build/
+dist/
+coverage/
+
+# OS & Environment
+.DS_Store
+Thumbs.db
+*.log
+.env*
+!.env.example
+.vscode/
+.idea/
+

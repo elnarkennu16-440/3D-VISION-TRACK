@@ -1,0 +1,6 @@
+# RetroLens 3D Python Dependencies
+# NOTE: MediaPipe requires Python 3.9, 3.10, 3.11, or 3.12 (Python 3.11 recommended).
+# Python 3.14 does not support MediaPipe binary wheels yet.
+opencv-python>=4.8.0
+mediapipe>=0.10.9
+numpy>=1.24.0

@@ -1,0 +1,6 @@
+{
+  "name": "RetroLens 3D Hand Tracking Portal",
+  "description": "Real-time 2D and 3D hand tracking portal with multi-angle perspective and 12 visual filters, inspired by RetroLens Python.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
